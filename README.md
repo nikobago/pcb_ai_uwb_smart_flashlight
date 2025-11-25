@@ -118,3 +118,26 @@ The system is designed for a **2S Li-Ion Battery Pack (7.4V Nominal / 8.4V Max)*
 * **Haptics:** Solder pads provided on the bottom layer for a 2-wire vibration motor.
 * **High Power LEDs** Connector provided on the top layer
 * **Switch:** Solder pads provided on the bottom layer for a 2-wire switch to include dim modes.
+
+## 6. Future Improvements Suggestions 
+
+Based on testing results and future requirements for production units using fixed battery chemistries:
+
+1.  **Full BMS Implementation (18650 Support):**
+    * Re-integrate hardware (removed as we temporarily went to AA batteries) **Over-Voltage Protection (OVP)**, **Under-Voltage Protection (UVP)**, and **Cell Balancing** circuits.
+    * *Purpose:* Required for safe operation when reverting to standard 2S Li-Ion 18650 battery packs (replacing the current variable input support).
+
+2.  **State-of-Charge (SoC) Fuel Gauge:**
+    * Replace the simple voltage divider (`VBAT_DET`) with a dedicated I2C Fuel Gauge IC (e.g., Maxim or TI series).
+    * *Purpose:* Provide accurate 0-100% battery reporting to the user interface, independent of voltage sag under LED load.
+
+3.  **Connectorization:**
+    * Replace bottom-side solder pads (Switch, Haptics, Battery) with vertical JST/Molex headers.
+    * *Purpose:* Simplify final assembly and allow for modular replacement of mechanical components without soldering.
+
+4.  **USB-PD Fast Charging:**
+    * Upgrade the TP5100 linear charging logic to a USB-PD compliant switching charger.
+    * *Purpose:* Reduce charge time for high-capacity 18650 cells.
+      
+<img width="1035" height="711" alt="Screenshot_1" src="https://github.com/user-attachments/assets/146eb758-a32b-443c-aaa3-31238fb26421" />
+<img width="1039" height="712" alt="Screenshot_2" src="https://github.com/user-attachments/assets/9592af7a-26b1-4b8b-a2d7-4d55b715cfdd" />
