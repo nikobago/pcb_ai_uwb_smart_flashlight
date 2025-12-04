@@ -1,0 +1,107 @@
+Altium Designer Pick and Place Locations
+C:\Fusevi\ai_board_shield\ai_uwb_smart_flashlight\Project Outputs for ai_uwb_smart_flashlight\Pick Place for PCB_LicheeRV.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04.12.25
+Time:       10:26
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer       Footprint                                    Center-X(mil) Center-Y(mil) Rotation Description                                                             
+R1         2K               TopLayer    R0603                                        941.087       2279.491      180      "RES SMD 2K OHM 1% 1/10W 0603"                                          
+Q1         2N7002ET7G       TopLayer    SOT96P237X111-3N                             931.244       2397.601      90       "MOSFET (N-Channel)"                                                    
+M1         MOTOR            TopLayer    SolderWires                                  866.244       2623.979      0        LED                                                                     
+D3         1N4001W-T        TopLayer    SODFL3818X130N                               862.346       2525.554      0        Diode                                                                   
+J5         ESP32_Header_12  BottomLayer 12P-2.54                                     1255.866      1726.378      180      ""                                                                      
+J3         22-28-4142       TopLayer    HDRV14W63P0X254_1X14_3556X250X950P           1380.000      1495.000      90       Connector                                                               
+J4         22-28-4142       TopLayer    HDRV14W63P0X254_1X14_3556X250X950P           590.000       1495.000      270      Connector                                                               
+R11        10k              BottomLayer R0603                                        985.000       1795.000      270      ""                                                                      
+J7         Switch           TopLayer    SWITCH_SOLDER                                985.000       1977.165      90       ""                                                                      
+JP7        Open             TopLayer    HDRV2W87P0X254_1X2_768X249X1494P_-_duplicate 1603.543      2066.929      0        Jumper
+42375-1855                                                      
+C34        "100uF 16V"      TopLayer    CAPAE660X770N                                1279.528      2362.205      0        "Capacitor Polarised"                                                   
+C33        Capacitor        TopLayer    0603C                                        1195.000      1845.000      180      "Cap Ceramic 0.1uF 50VDC X7R 10% SMD 0603 Paper T/R"                    
+C24        "10uF 25V"       BottomLayer 0805C                                        2072.786      1558.622      180      ""                                                                      
+JP6        Open             TopLayer    HDRV2W87P0X254_1X2_768X249X1494P_-_duplicate 1614.961      2529.528      0        Jumper
+42375-1855                                                      
+JP2        Open             TopLayer    HDRV2W87P0X254_1X2_768X249X1494P_-_duplicate 1909.449      1329.528      270      Conn
+42375-1855
++
+jumper
+60900213621                                
+JP1        Open             TopLayer    HDRV2W87P0X254_1X2_768X249X1494P_-_duplicate 2017.716      1329.528      270      Conn
+42375-1855
++
+jumper
+60900213621                                
+R15        100k             TopLayer    0603                                         2263.780      442.913       180      "100k Resistor"                                                         
+R17        18.7k            TopLayer    0603                                         2364.173      570.866       0        18.7k                                                                   
+J2         Batt             TopLayer    Batt                                         1510.000      110.000       0        ""                                                                      
+R28        158k             TopLayer    0603                                         1578.947      1791.614      270      "Resistor DNP 0603 158k"                                                
+R23        620k             TopLayer    0603                                         964.567       728.346       90       "RES SMD 620k OHM 1% 1/10W 0603"                                        
+R18        1M               TopLayer    0603                                         895.669       728.346       270      "RES SMD 1M OHM 1% 1/10W 0603"                                          
+R8         10K              TopLayer    0603                                         1096.083      594.125       90       "RES SMD 10K OHM 1% 1/10W 0603"                                         
+Q2         RQ5E050ATTCL     TopLayer    SOT95P280X100-3N                             1056.083      441.369       270      "MOSFET P-CH 30V 5A TSMT3"                                              
+L2         1uH              BottomLayer VLS5045EX330M                                880.000       850.000       0        Inductor                                                                
+F1         C1Q_5            TopLayer    FUSC3216X78N                                 1230.315      383.858       180      "FUSE BOARD MOUNT 5A 125VAC 63VDC"                                      
+C29        "47uF 35V"       TopLayer    CAPAE660X550N                                2240.000      2420.000      0        "Capacitor Polarised"                                                   
+U6         TPS54335ADDAR    TopLayer    IC_TPS54335ADDAR                             2139.764      590.551       0        "4.5V to 28V Input, 3A, Synchronous, Step-Down Converter with Eco-mode" 
+R19        19.1k            TopLayer    0603                                         2263.780      393.701       0        19.1k                                                                   
+R16        133k             TopLayer    0603                                         2381.890      659.449       0        133k                                                                    
+L1         15uH             TopLayer    SRR1280                                      1830.709      954.724       0        "No Description Available"                                              
+C16        "68uF 10V"       TopLayer    SM_RADIAL_5MM                                2421.260      954.724       0        "10SVPC68M 68uF 10V"                                                    
+C22        "820pF 50V"      TopLayer    0603                                         2472.441      570.866       0        "820pF 50V"                                                             
+C15        "100nF 50V"      TopLayer    0805C                                        1840.551      551.181       0        "100nF 50V"                                                             
+C17        "56pF 50V"       TopLayer    0805C                                        2421.260      492.126       0        "56pF 50V"                                                              
+C13        "33uF 63V"       TopLayer    SM_RADIAL_8MM                                1879.921      275.591       0        "No Description Available"                                              
+C10        "100nF 50V"      TopLayer    0805C                                        1840.551      649.606       180      "100nF 50V"                                                             
+L3         PA2240.332NLT    TopLayer    PA2240332NLT                                 2060.000      1795.000      180      Inductor                                                                
+U5         BQ25886RGET      BottomLayer RGE0024H                                     975.535       592.518       180      "No Description Available"                                              
+U4         TPS61288LRQQR_1  TopLayer    CONV_TPS61288LRQQR                           2088.898      2121.555      180      "18-V, 15-A synchronous boost converter"                                
+SB1        Open             BottomLayer SB_0603                                      665.000       419.000       90       "Circuit Breaker"                                                       
+R37        2K               TopLayer    R0603                                        258.000       1650.000      90       "RES SMD 2K OHM 1% 1/10W 0603"                                          
+R36        2K               TopLayer    R0603                                        258.000       1234.000      90       "RES SMD 2K OHM 1% 1/10W 0603"                                          
+R35        2K               TopLayer    R0603                                        258.000       823.000       90       "RES SMD 2K OHM 1% 1/10W 0603"                                          
+R34        56mOhm           BottomLayer R0603                                        1899.606      1515.748      90       "Resistor DNP 0603 ERJ-3BWFR056V 56mOhm"                                
+R33        150mOhm          BottomLayer R0603                                        1958.661      1515.748      90       "Resistor DNP 0603 150mOhm RL0603FR-070R15L"                            
+R32        48.7k            TopLayer    R0603                                        2360.000      2040.000      180      "Resistor DNP 0603"                                                     
+R31        44.2k            TopLayer    R0603                                        2200.000      2170.000      270      "Resistor DNP 0603"                                                     
+R30        931k             TopLayer    R0603                                        2225.000      2095.000      0        "Resistor DNP 0603"                                                     
+R29        100k             TopLayer    R0603                                        1525.590      1791.339      90       "RES SMD 100K OHM 1% 1/10W 0603"                                        
+R27        150k             BottomLayer R0603                                        1130.000      540.523       180      "Resistor DNP 0603"                                                     
+R26        10k              BottomLayer R0603                                        1091.995      355.523       180      "Resistor DNP 0603"                                                     
+R25        30k1             BottomLayer R0603                                        1091.995      305.523       180      "Resistor DNP 0603"                                                     
+R22        5K23             BottomLayer R0603                                        905.000       432.046       270      "Resistor DNP 0603"                                                     
+R21        5.76k            BottomLayer R0603                                        955.000       430.523       270      "Resistor DNP 0603 5.76k"                                               
+R20        2K               BottomLayer R0603                                        1005.000      330.995       270      "RES SMD 2K OHM 1% 1/10W 0603"                                          
+R14        2K               BottomLayer R0603                                        1238.527      615.000       0        "RES SMD 2K OHM 1% 1/10W 0603"                                          
+R13        383R             BottomLayer R0603                                        1055.000      430.523       270      383R                                                                    
+D2         LED3             BottomLayer C0603                                        1005.000      430.523       90       "Typical BLUE SiC LED"                                                  
+D1         LED3             BottomLayer C0603                                        1135.000      615.000       180      "Typical BLUE SiC LED"                                                  
+C32        39nF             TopLayer    C0603                                        2220.000      2240.000      0        "39nF CAP 0603"                                                         
+C31        100pF            TopLayer    C0603                                        2250.000      2170.000      90       "CAP CER 100pF 16V"                                                     
+C30        "100nF 16V"      TopLayer    C0603                                        2020.000      2245.000      0        "CAP CER 0.1UF 16V X7R 0603"                                            
+C28        "100nF 16V"      TopLayer    C0603                                        1979.527      2040.000      180      "CAP CER 0.1UF 16V X7R 0603"                                            
+C27        "10uF 16V"       TopLayer    C0603                                        2062.945      1560.000      0        ""                                                                      
+C26        "100nF 16V"      TopLayer    C0603                                        1980.000      2125.472      270      "CAP CER 0.1UF 16V X7R 0603"                                            
+C25        2.2uF            TopLayer    0805C                                        2220.000      2020.000      0        ""                                                                      
+C21        "10uF 16V"       BottomLayer C0603                                        825.000       545.523       180      ""                                                                      
+C20        "22uF 16V"       BottomLayer C0603                                        675.000       565.523       270      ""                                                                      
+C19        "22uF 16V"       BottomLayer C0603                                        730.000       565.523       270      ""                                                                      
+C14        10uF             BottomLayer C0603                                        935.000       725.523       180      ""                                                                      
+C12        1uF              BottomLayer C0805                                        1025.000      755.523       90       "CAP CER 1UF 16V X7R 0805"                                              
+C11        100nF            BottomLayer C0603                                        1090.000      755.523       270      "CAP CER 0.1UF 16V X7R 0603"                                            
+L4         HCMA1707-470-R   BottomLayer INDPM172168X700N                             2592.786      1648.622      90       Inductor                                                                
+U7         AL8843SP-13      BottomLayer SOIC127P600X163-9N                           2153.786      1348.323      90       "Integrated Circuit"                                                    
+D8         LED              TopLayer    SolderWires                                  258.000       1428.000      90       LED                                                                     
+D7         LED              TopLayer    SolderWires                                  258.000       996.000       90       LED                                                                     
+D9         LED              TopLayer    SolderWires                                  261.000       1834.000      90       LED                                                                     
+D4         CDBC560-G        BottomLayer DIOM7959X262N                                2122.786      1828.622      270      "Schottky Diode"                                                        
+D6         LED              TopLayer    SolderWires                                  2702.795      1122.047      0        LED                                                                     
+J1         10164359-00011LF TopLayer    1016435900011LF                              1480.000      2822.087      180      Connector                                                               
+U8         ICM-42605        TopLayer    IIM42352                                     1204.000      1741.000      180      Accelerometer                                                           
+C18        47nF             BottomLayer C0805                                        820.000       670.000       90       ""                                                                      
+C23        4.7uF            BottomLayer C0805                                        845.000       425.523       270      ""                                                                      
