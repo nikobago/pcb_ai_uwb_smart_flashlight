@@ -33,17 +33,18 @@ The ESP32 acts as the SPI Master for on-board sensors and manages all real-time 
 | **IO13** | **MOSI** | `SPI_MOSI` | Shared SPI Data Out |
 | **IO12** | **MISO** | `SPI_MISO` | Shared SPI Data In |
 | **IO14** | **SCK** | `SPI_CLK` | Shared SPI Clock |
-| **IO27** | **CS** | `UWB_CS` | Chip Select for DW3220 |
-| **IOXX** | **CS** | `IMU_CS` | Chip Select for ICM-42605 |
+| **IO27** | **CS** | `IMU_CS` | Chip Select for ICM-42605 |
 | **IO2** | **PWM** | `LED_PWM` | LED Driver Dimming Signal |
 | **IO25** | **ADC** | `VBAT_DET` | Battery Voltage Sense (1/3 Divider) |
 | **IO26** | **GPIO** | `SWITCH_DET` | Input from User Switch |
 | **IO23** | **IRQ** | `IMU_INT2` | IMU Motion Interrupt |
+| **IO18** | **IRQ** | `IMU_INT1` | IMU Motion Interrupt |
 | **IO15** | **GPIO** | `NSS` | CS to LicheeRV |
 | **IO22** | **GPIO** | `LED_PWM1` | Power Status LED Control |
 | **IO17** | **GPIO** | `LED_PWM2` | Power Status LED Control |
 | **IO16** | **GPIO** | `LED_PWM3` | Power Status LED Control |
-
+| **IO4** | **I2SDA** | `IMU I2SDA` | I2SDA for ICM-42605 |
+| **IO5** | **I2SCL** | `IMU I2SCL` | I2SCL for ICM-42605 |
 ### LicheeRV Nano Header
 The LicheeRV sits on a dedicated header connecting it to the power rails and the ESP32 for inter-processor communication.
 
